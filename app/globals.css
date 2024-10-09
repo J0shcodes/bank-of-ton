@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: linear-gradient(#0F1017, #0098EA);
     --foreground: #ededed;
   }
 }
@@ -17,6 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
 }
 
